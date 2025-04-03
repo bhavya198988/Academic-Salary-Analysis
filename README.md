@@ -25,7 +25,7 @@ To execute the analysis:
 1. Ensure the `Salaries.csv` dataset is in the project directory.
 2. Run the Python script:
 ```bash
-python salary_analysis.py
+python lab55.py
 ```
 The script will generate visualizations and display key insights in the console.
 
@@ -50,24 +50,6 @@ A regression plot was used to analyze the correlation between years of service a
 sns.regplot(x='service', y='salary', data=df)
 ```
 
-## Dataset Overview
-| Column     | Description                | Data Type |
-|------------|----------------------------|-----------|
-| rank       | Academic rank              | Object    |
-| discipline | Academic discipline        | Object    |
-| phd        | Years since PhD            | Integer   |
-| service    | Years of service           | Integer   |
-| sex        | Gender                     | Object    |
-| salary     | Annual salary (in USD)     | Integer   |
-
-## Summary Statistics
-| Metric  | PhD   | Service | Salary  |
-|---------|------|---------|---------|
-| Count   | 78   | 78      | 78      |
-| Mean    | 19.71 | 15.05   | $108,024 |
-| Std Dev | 12.50 | 12.14   | $28,294  |
-| Min     | 1    | 0       | $57,800  |
-| Max     | 56   | 51      | $186,960 |
 
 ## Visualizations
 ### Histogram of Salaries
@@ -102,7 +84,7 @@ This project is designed to run locally on a Python environment with Jupyter Not
 
 ## Author
 **Bhavya**  
-Data Science Enthusiast  
+Data Science Student  
 GitHub: [https://github.com/bhavya198988](https://github.com/bhavya198988)
 
 ## License
